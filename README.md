@@ -7,13 +7,14 @@ A clean, modular, dark-themed developer portfolio.
 ## 📁 Folder Structure
 
 ```
-portfolio/
-├── index.html        ← Main page shell (don't edit)
+MyPortfolio/
+│
+├── index.html          # Main portfolio page
 ├── css/
-│   └── style.css     ← All styles (edit to change colors/fonts)
+│   └── style.css       # Styling and theme customization
 ├── js/
-│   ├── data.js       ← ✅ YOUR CONTENT FILE — edit this!
-│   └── main.js       ← Renders everything (don't edit)
+│   ├── data.js         # Portfolio content (projects, skills, etc.)
+│   └── main.js         # Dynamic rendering logic
 └── README.md
 ```
 
