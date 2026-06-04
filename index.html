@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lalit_Rana_Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Cursor -->
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+
+<!-- ── NAV ── -->
+<nav>
+  <div class="nav-logo"><span>{'</span> Lalit Rana <span>'}</span></div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#certifications">Certs</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ── HERO ── -->
+<section id="hero">
+  <div class="hero-inner">
+    <div class="hero-tag" id="hero-tagline"></div>
+    <h1 class="hero-name">
+      <span id="hero-name-first"></span><br>
+      <span class="accent" id="hero-name-last"></span>
+    </h1>
+    <div class="hero-title">
+      <span id="typed-title"></span><span class="blink">_</span>
+    </div>
+    <p class="hero-desc" id="hero-desc"></p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn-primary">View Projects →</a>
+      <a href="#contact"  class="btn-outline">Get In Touch</a>
+    </div>
+  </div>
+  <div class="hero-orb">
+    <div class="hero-orb-inner" id="orb-tech"></div>
+  </div>
+</section>
+
+<!-- ── ABOUT ── -->
+<section id="about">
+  <div class="section-label">01 // about</div>
+  <h2 class="section-title">Who I <span class="acc">Am</span></h2>
+  <div class="divider"></div>
+  <div class="about-grid">
+    <div class="about-text reveal" id="about-text"></div>
+    <div class="about-stats reveal reveal-delay-2" id="about-stats"></div>
+  </div>
+</section>
+
+<!-- ── SKILLS ── -->
+<section id="skills">
+  <div class="section-label">02 // skills</div>
+  <h2 class="section-title">Tech <span class="acc">Stack</span></h2>
+  <div class="divider"></div>
+  <div class="skills-grid" id="skills-grid"></div>
+</section>
+
+<!-- ── PROJECTS ── -->
+<section id="projects">
+  <div class="section-label">03 // projects</div>
+  <h2 class="section-title">What I've <span class="acc">Built</span></h2>
+  <div class="divider"></div>
+  <div class="slider-wrapper reveal">
+    <div class="slider-track" id="sliderTrack"></div>
+    <div class="slider-controls">
+      <button class="slider-btn" id="prevBtn">&#8249;</button>
+      <button class="slider-btn" id="nextBtn">&#8250;</button>
+      <div class="slider-dots" id="sliderDots"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── EXPERIENCE ── -->
+<section id="experience">
+  <div class="section-label">04 // experience</div>
+  <h2 class="section-title">Where I've <span class="acc">Worked</span></h2>
+  <div class="divider"></div>
+  <div class="timeline" id="timeline"></div>
+</section>
+
+<!-- ── CERTIFICATIONS ── -->
+<section id="certifications">
+  <div class="section-label">05 // certifications</div>
+  <h2 class="section-title">Credentials &amp; <span class="acc">Certs</span></h2>
+  <div class="divider"></div>
+  <div class="certs-grid" id="certs-grid"></div>
+</section>
+
+<!-- ── ACHIEVEMENTS ── -->
+<section id="achievements">
+  <div class="section-label">06 // achievements</div>
+  <h2 class="section-title">Key <span class="acc">Highlights</span></h2>
+  <div class="divider"></div>
+  <div class="ach-grid" id="ach-grid"></div>
+</section>
+
+<!-- ── EDUCATION ── -->
+<section id="education">
+  <div class="section-label">07 // education</div>
+  <h2 class="section-title">Academic <span class="acc">Background</span></h2>
+  <div class="divider"></div>
+  <div class="edu-grid" id="edu-grid"></div>
+</section>
+
+<!-- ── CONTACT ── -->
+<section id="contact">
+  <div class="section-label">08 // contact</div>
+  <h2 class="section-title">Let's <span class="acc">Connect</span></h2>
+  <div class="divider"></div>
+  <div class="contact-grid">
+    <div class="reveal">
+      <p class="contact-tagline">I'm actively looking for opportunities in Java Full Stack and Web Development. Open to internships, full-time roles, and exciting projects.</p>
+      <p style="color:var(--muted);font-size:0.92rem;line-height:1.7;">Whether you want to discuss a project, an opportunity, or just say hi — my inbox is always open.</p>
+    </div>
+    <div class="contact-info reveal reveal-delay-1">
+      <a id="link-email" class="contact-item">
+        <div class="contact-item-icon">✉️</div>
+        <div>
+          <div class="contact-item-label">Email</div>
+          <div class="contact-item-text" id="link-email-text"></div>
+        </div>
+      </a>
+      <a id="link-phone" class="contact-item">
+        <div class="contact-item-icon">📱</div>
+        <div>
+          <div class="contact-item-label">Phone</div>
+          <div class="contact-item-text" id="link-phone-text"></div>
+        </div>
+      </a>
+      <a id="link-github" class="contact-item" target="_blank">
+        <div class="contact-item-icon">🐙</div>
+        <div>
+          <div class="contact-item-label">GitHub</div>
+          <div class="contact-item-text" id="link-github-text"></div>
+        </div>
+      </a>
+      <a id="link-linkedin" class="contact-item" target="_blank">
+        <div class="contact-item-icon">💼</div>
+        <div>
+          <div class="contact-item-label">LinkedIn</div>
+          <div class="contact-item-text" id="link-linkedin-text"></div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-copy">© 2026 <span class="footer-accent" id="footer-name">Lalit Rana</span></div>
+  <div class="footer-copy" style="color:var(--accent);font-size:0.75rem;">{ code. create. ship. }</div>
+</footer>
+
+<!-- Load data first, then main logic -->
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
